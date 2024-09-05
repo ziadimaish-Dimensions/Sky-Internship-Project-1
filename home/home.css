@@ -1,15 +1,23 @@
+/* Welcome message styling */
 .welcome-message {
   font-size: 24px;
   font-weight: bold;
 }
 
+/* Profile Card */
 .profile-card {
   border-radius: 15px;
   box-shadow: 0 12px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
   background-color: rgba(235, 230, 230, 0.802);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  min-height: 150px;
 }
 
+/* Profile card title and subtitle */
 .profile-card .card-title {
   font-size: 1.25rem;
   font-weight: bold;
@@ -20,10 +28,12 @@
   margin-top: -5px;
 }
 
+/* View Profile button */
 .profile-card .btn-outline-success {
   border-radius: 20px;
 }
 
+/* Profile image styling */
 .profile-card img {
   width: 60px;
   height: 60px;
@@ -31,34 +41,44 @@
   border-radius: 50%;
 }
 
-/*CSS for vacation and leave requests*/
 .icon-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: #28a745;
-  border-radius: 8px;
+  border-radius: 15px;
   color: white;
-  height: 100px;
-  width: 120px;
+  height: 100%;
+  min-height: 150px;
+  width: 100%;
+  padding: 20px;
   margin: 10px;
-  padding: 10px;
-  font-size: 24px;
+  display: flex;
+  justify-content: space-between; /* Space icon and number apart */
+  align-items: center;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
 }
 
-/*CSS for number in the vacation and leave requests */
+/* Icon styling */
+.icon-lg {
+  font-size: 50px;
+  color: white;
+}
+
+/* Number styling */
 .icon-box h5 {
+  font-size: 70px;
   margin: 0;
-  font-size: 32px;
+  color: white;
 }
 
-/*CSS for text in the vacation and leave requests */
+/* Text styling for the requests */
 .icon-box p {
+  font-size: 16px; /* Request text size */
   margin: 0;
-  font-size: 14px;
+  margin-top: 5px;
+  color: white; /* White request text */
 }
 
-/*CSS for new request button*/
+/* New Request button styling */
 .request-btn {
   background-color: #28a745;
   color: white;
@@ -83,8 +103,7 @@
   transform: scale(0.95);
 }
 
-/*CSS for view profile button*/
-
+/* View Profile button */
 .view-profile-btn {
   background-color: white;
   color: #28a745;
@@ -107,9 +126,4 @@
   color: white;
   border-color: #28a745;
   transform: scale(0.95);
-}
-
-.icon-lg {
-  font-size: 80px; /* Adjust the size as needed */
-  color: grey;
 }
