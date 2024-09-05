@@ -1,0 +1,115 @@
+.welcome-message {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.profile-card {
+  border-radius: 15px;
+  box-shadow: 0 12px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: rgba(235, 230, 230, 0.802);
+}
+
+.profile-card .card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.profile-card .card-subtitle {
+  font-size: 1rem;
+  margin-top: -5px;
+}
+
+.profile-card .btn-outline-success {
+  border-radius: 20px;
+}
+
+.profile-card img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/*CSS for vacation and leave requests*/
+.icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #28a745;
+  border-radius: 8px;
+  color: white;
+  height: 100px;
+  width: 120px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 24px;
+}
+
+/*CSS for number in the vacation and leave requests */
+.icon-box h5 {
+  margin: 0;
+  font-size: 32px;
+}
+
+/*CSS for text in the vacation and leave requests */
+.icon-box p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/*CSS for new request button*/
+.request-btn {
+  background-color: #28a745;
+  color: white;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid #28a745;
+  transition: all 0.3s ease;
+}
+
+.request-btn:hover,
+.request-btn:focus {
+  background-color: white;
+  color: #28a745;
+  border-color: #28a745;
+}
+
+.request-btn:active {
+  background-color: white;
+  color: #28a745;
+  border-color: #28a745;
+  transform: scale(0.95);
+}
+
+/*CSS for view profile button*/
+
+.view-profile-btn {
+  background-color: white;
+  color: #28a745;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid #28a745;
+  transition: all 0.3s ease;
+}
+
+.view-profile-btn:hover,
+.view-profile-btn:focus {
+  background-color: #28a745;
+  color: white;
+  border-color: #28a745;
+}
+
+.view-profile-btn:active {
+  background-color: #28a745;
+  color: white;
+  border-color: #28a745;
+  transform: scale(0.95);
+}
+
+.icon-lg {
+  font-size: 80px; /* Adjust the size as needed */
+  color: grey;
+}
