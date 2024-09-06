@@ -42,7 +42,7 @@
 }
 
 .icon-box {
-  background-color: #28a745;
+  background-color: green;
   border-radius: 15px;
   color: white;
   height: 100%;
@@ -80,50 +80,75 @@
 
 /* New Request button styling */
 .request-btn {
-  background-color: #28a745;
+  background-color: green;
   color: white;
   border-radius: 8px;
   padding: 10px 20px;
   font-size: 16px;
-  border: 2px solid #28a745;
+  border: 2px solid green;
   transition: all 0.3s ease;
 }
 
 .request-btn:hover,
 .request-btn:focus {
   background-color: white;
-  color: #28a745;
-  border-color: #28a745;
+  color: green;
+  border-color: green;
 }
 
 .request-btn:active {
   background-color: white;
-  color: #28a745;
-  border-color: #28a745;
+  color: green;
+  border-color: green;
   transform: scale(0.95);
 }
 
 /* View Profile button */
 .view-profile-btn {
   background-color: white;
-  color: #28a745;
+  color: green;
   border-radius: 8px;
   padding: 10px 20px;
   font-size: 16px;
-  border: 2px solid #28a745;
+  border: 2px solid green;
   transition: all 0.3s ease;
 }
 
 .view-profile-btn:hover,
 .view-profile-btn:focus {
-  background-color: #28a745;
+  background-color: green;
   color: white;
-  border-color: #28a745;
+  border-color: green;
 }
 
 .view-profile-btn:active {
-  background-color: #28a745;
+  background-color: green;
   color: white;
-  border-color: #28a745;
+  border-color: green;
   transform: scale(0.95);
+}
+
+/* Carousel Caption Styling */
+.carousel-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  text-align: left;
+  border-radius: 0;
+}
+
+/* Carousel text and heading */
+.carousel-caption h5 {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.carousel-caption p {
+  font-size: 16px;
+  color: white;
+  margin-top: 10px;
 }
