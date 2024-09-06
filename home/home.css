@@ -51,10 +51,10 @@
   padding: 20px;
   margin: 10px;
   display: flex;
-  justify-content: space-between; /* Space icon and number apart */
+  justify-content: space-between;
   align-items: center;
   text-align: left;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Icon styling */
@@ -72,10 +72,10 @@
 
 /* Text styling for the requests */
 .icon-box p {
-  font-size: 16px; /* Request text size */
+  font-size: 16px;
   margin: 0;
   margin-top: 5px;
-  color: white; /* White request text */
+  color: white;
 }
 
 /* New Request button styling */
