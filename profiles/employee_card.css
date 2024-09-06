@@ -1,0 +1,72 @@
+/* Employee card styling */
+.employee-card {
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  margin: auto;
+}
+
+/* Centered image */
+.employee-card img {
+  object-fit: cover;
+  border: 2px solid #ddd;
+}
+
+/* Employee name */
+.employee-card .card-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+/* Employee details (submitted, duration, salary) */
+.employee-card p {
+  margin: 0.3rem 0;
+  font-size: 0.9rem;
+}
+
+/* Button styling */
+.employee-card .btn-sm {
+  width: 100px;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  border-radius: 20px;
+}
+
+/* Employee card button styling */
+.employee-card .btn-outline-danger {
+  border-color: green;
+  color: green;
+  background-color: white;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 12px;
+  border: 2px solid green;
+}
+
+.employee-card .btn-outline-danger:hover {
+  background-color: green;
+  color: white;
+  border-color: green;
+}
+
+/* Approve button styling */
+.employee-card .btn-success {
+  background-color: green;
+  border-color: green;
+  color: white;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 12px;
+  border: 2px solid green;
+}
+
+/* Approve button hover effect */
+.employee-card .btn-success:hover {
+  background-color: green;
+  border-color: green;
+}
