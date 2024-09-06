@@ -1,19 +1,29 @@
 <div class="card employee-card m-3">
-  <div class="card-body text-center">
-    <img
-      src="{{image}}"
-      class="rounded-circle mb-3"
-      alt="Employee Image"
-      width="80"
-      height="80"
-    />
-    <h5 class="card-title">{{name}}</h5>
-    <p>Submitted on: {{submittedOn}}</p>
-    <p>Duration: {{duration}}</p>
-    <p>Salary: {{salary}}</p>
-    <div class="d-flex justify-content-between">
-      <button class="btn btn-outline-danger">Decline</button>
-      <button class="btn btn-success">Approve</button>
+  <div class="card-body">
+    <div class="text-center">
+      <img
+        src="{{image}}"
+        class="rounded-circle mb-3"
+        alt="Employee Image"
+        width="100"
+        height="100"
+      />
+    </div>
+
+    <h5 class="card-title text-center">{{name}}</h5>
+
+    <p class="text-muted mb-0">Submitted on:</p>
+    <p class="fw-bold text-dark">{{submittedOn}}</p>
+
+    <p class="text-muted mb-0">Duration:</p>
+    <p class="fw-bold text-dark">{{duration}}</p>
+
+    <p class="text-muted mb-0">Salary:</p>
+    <p class="fw-bold text-dark">{{salary}}</p>
+
+    <div class="d-flex justify-content-center mt-3">
+      <button class="btn btn-outline-danger btn-sm me-2">Decline</button>
+      <button class="btn btn-success btn-sm">Approve</button>
     </div>
   </div>
 </div>

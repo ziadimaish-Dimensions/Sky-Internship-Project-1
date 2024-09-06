@@ -152,3 +152,80 @@
   color: white;
   margin-top: 10px;
 }
+/* Styling for the search bar */
+#searchBar {
+  max-width: 300px;
+  margin-bottom: 10px;
+}
+
+/* Employee cards layout */
+#employee-container .col-md-4 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Employee card styling */
+.employee-card {
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  margin: auto;
+}
+
+/* Centered image */
+.employee-card img {
+  object-fit: cover;
+  border: 2px solid #ddd;
+}
+
+/* Employee name */
+.employee-card .card-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+/* Employee details (submitted, duration, salary) */
+.employee-card p {
+  margin: 0.3rem 0;
+  font-size: 0.9rem;
+}
+
+/* Button styling */
+.employee-card .btn-sm {
+  width: 100px;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  border-radius: 20px;
+}
+
+/* Employee card button styling */
+.employee-card .btn-outline-danger {
+  border-color: #28a745; /* Green border */
+  color: #28a745; /* Green text */
+  background-color: white; /* White background */
+  transition: all 0.3s ease;
+}
+
+.employee-card .btn-outline-danger:hover {
+  background-color: #28a745;
+  color: white; /* White text on hover */
+  border-color: #28a745;
+}
+
+/* Approve button styling */
+.employee-card .btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+  color: white; /* White text */
+  transition: all 0.3s ease;
+}
+
+/* Approve button hover effect */
+.employee-card .btn-success:hover {
+  background-color: #218838;
+  border-color: #218838;
+}
